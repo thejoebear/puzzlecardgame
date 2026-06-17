@@ -1,0 +1,47 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 41d2a1daff1f55c4393b8ae8404ef970, type: 3}
+  m_Name: Level2
+  m_EditorClassIdentifier: Assembly-CSharp::LevelData
+  levelName: 'Level 2: Diverse Topics'
+  categoryMappings:
+  - category: 0
+    factPack: {fileID: 11400000, guid: 3c678b20ac02b5d4c9e1e519d0c7ea40, type: 2}
+    cardCount: 9
+  - category: 1
+    factPack: {fileID: 11400000, guid: 64bcca170b64e7443a02d14745cfb912, type: 2}
+    cardCount: 8
+  - category: 3
+    factPack: {fileID: 11400000, guid: 443ee3dd10144df4fa9acbc24d17806a, type: 2}
+    cardCount: 3
+  foundationSlots: 4
+  theme: {fileID: 11400000, guid: c8530f22aa1fd25498983e811cea3237, type: 2}
+  threeStarMoves: 75
+  twoStarMoves: 110
+  useMysteryCards: 1
+  mysteryChance: 0.15
+  useAnomalies: 0
+  anomalyChance: 0.1
+  tableauCapacity: 0
+  lockedFoundationSlots: 0
+  focusCharges: 2
+  gravityCharges: 1
+  nebulaCharges: 1
+  isNebulaNode: 0
+  branchFromIndex: -1
+  branchOffset: {x: 200, y: 0}
+  constellationShape:
+  - {x: -2, y: 2}
+  - {x: 2, y: 2}
+  - {x: 2, y: -2}
+  - {x: -2, y: -2}
+  - {x: -2, y: 2}

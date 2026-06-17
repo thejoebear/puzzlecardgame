@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1e83780892b5c4592add1c4998da52, type: 3}
+  m_Name: MythologyFacts
+  m_EditorClassIdentifier: Assembly-CSharp::FactPack
+  category: 6
+  facts:
+  - Zeus is the king of the gods in Greek mythology.
+  - Thor is the god of thunder in Norse mythology.
+  - The Phoenix is a bird that rises from its ashes.
+  - Anubis is the god of death in Egyptian mythology.
+  - Medusa had snakes for hair.
+  - Icarus flew too close to the sun.
+  - The Kraken is a legendary sea monster.
+  - Minotaur had the head of a bull and the body of a man.
+  - Sphinx has the head of a human and the body of a lion.
+  - Cerberus is a three-headed dog.
+  - Pegasus is a winged horse.
+  - "Ragnar\xF6k is the end of the world in Norse mythology."
+  - Hercules completed 12 labors.

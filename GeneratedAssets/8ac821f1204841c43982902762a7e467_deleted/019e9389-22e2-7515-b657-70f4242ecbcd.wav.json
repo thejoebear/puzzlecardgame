@@ -1,0 +1,15 @@
+{
+    "asset": "8ac821f1204841c43982902762a7e467",
+    "fileName": "019e9389-22e2-7515-b657-70f4242ecbcd.wav",
+    "prompt": "subtle soft error buzzer sound, neutral, short",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1e83780892b5c4592add1c4998da52, type: 3}
+  m_Name: LiteratureFacts
+  m_EditorClassIdentifier: Assembly-CSharp::FactPack
+  category: 7
+  facts:
+  - Sherlock Holmes never said 'Elementary, my dear Watson'.
+  - Mary Shelley was 18 when she wrote Frankenstein.
+  - J.R.R. Tolkien invented new languages for his books.
+  - The Great Gatsby sold poorly during F. Scott Fitzgerald's lifetime.
+  - Alice's Adventures in Wonderland was banned in China.
+  - Leo Tolstoy's War and Peace has over 500 characters.
+  - Moby-Dick was based on a real white whale.
+  - Charles Dickens always slept facing north.
+  - "Victor Hugo's Les Mis\xE9rables has one of the longest sentences in literature."
+  - Dr. Seuss invented the word 'nerd'.
+  - Agatha Christie is the best-selling novelist of all time.
+  - The first novel ever written is considered to be 'The Tale of Genji'.
+  - George Orwell's '1984' was published in 1949.

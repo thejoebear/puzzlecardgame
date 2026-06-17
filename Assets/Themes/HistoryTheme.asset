@@ -1,0 +1,26 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbe9c291c8626045827ab10d664fe7e, type: 3}
+  m_Name: HistoryTheme
+  m_EditorClassIdentifier: Assembly-CSharp::VisualTheme
+  boardColor: {r: 1, g: 1, b: 1, a: 1}
+  boardSprite: {fileID: -1584525752110003022, guid: 5846e39179d232d418a9e3d7b6f09296, type: 3}
+  foundationSilhouette: {fileID: 21300000, guid: 6acb7ce3fecdb304cb2c69bc414df964, type: 3}
+  tableauSilhouette: {fileID: 21300000, guid: ffdba5271dd032f449ec1e7548df8fef, type: 3}
+  cardBackSprite: {fileID: 21300000, guid: db5b21180c21c5347b0ae39399d5247f, type: 3}
+  cardFrontColor: {r: 1, g: 0.98, b: 0.9, a: 1}
+  headerColor: {r: 0.9, g: 0.8, b: 0.5, a: 1}
+  categoryVisuals: []
+  primaryUIColor: {r: 0.6, g: 0.4, b: 0.1, a: 1}
+  textOnPrimaryColor: {r: 1, g: 1, b: 1, a: 1}
+  panelSprite: {fileID: 0}
+  buttonSprite: {fileID: 0}

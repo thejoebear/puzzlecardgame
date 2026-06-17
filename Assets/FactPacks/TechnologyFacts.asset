@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1e83780892b5c4592add1c4998da52, type: 3}
+  m_Name: TechnologyFacts
+  m_EditorClassIdentifier: Assembly-CSharp::FactPack
+  category: 5
+  facts:
+  - The first computer bug was an actual moth.
+  - More people have mobile phones than toilets.
+  - The first electronic computer ENIAC weighed 27 tons.
+  - Google was originally called Backrub.
+  - Domain names were free until 1995.
+  - Russia has more surface area than Pluto.
+  - Over 3.5 billion people use the internet.
+  - NASA's internet speed is 91 GB per second.
+  - The first hard drive could only hold 5 MB of data.
+  - CAPTCHA stands for 'Completely Automated Public Turing test to tell Computers
+    and Humans Apart'.
+  - Every minute, 500 hours of video are uploaded to YouTube.
+  - The QWERTY keyboard was designed to slow down typing speed.
+  - There are more than 1.5 billion active websites.

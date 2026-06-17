@@ -1,0 +1,12 @@
+{
+    "asset": "ea6c6e92b000a7e4fbfaac6020557064",
+    "fileName": "019ea7e9-a9e7-7b8f-8f25-37eeee506dc3_Preview.png",
+    "prompt": "A seamless, uniform celestial starfield and cosmic dust texture. No large central objects. Fine glowing particles and subtle nebulosity spread evenly. Deep space colors (black, navy, dark purple). Seamlessly tileable for use as a repeating background layer. Organic distribution.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 883174344,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

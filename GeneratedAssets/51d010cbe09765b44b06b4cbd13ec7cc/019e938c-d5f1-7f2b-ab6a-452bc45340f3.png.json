@@ -1,0 +1,28 @@
+{
+    "asset": "51d010cbe09765b44b06b4cbd13ec7cc",
+    "fileName": "019e938c-d5f1-7f2b-ab6a-452bc45340f3.png",
+    "prompt": "A glowing golden star or spark with a soft bloom effect, representing a knowledge spark. Clean 2D game sprite style, high quality.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

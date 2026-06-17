@@ -1,0 +1,15 @@
+{
+    "asset": "f8bd3dda08af4cc43bc0b8e3f3c4d787",
+    "fileName": "019e9820-dd77-73f2-b752-947b2998a88c.wav",
+    "prompt": "Crystalline celestial chime, sparkling magical sound effect, high pitched, prestigious and rewarding, single hit.",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

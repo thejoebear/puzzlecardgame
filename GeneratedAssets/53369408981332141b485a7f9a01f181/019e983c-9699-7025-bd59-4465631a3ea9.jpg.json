@@ -1,0 +1,28 @@
+{
+    "asset": "53369408981332141b485a7f9a01f181",
+    "fileName": "019e983c-9699-7025-bd59-4465631a3ea9.jpg",
+    "prompt": "Golden ornate gear and circuit icon, prestigious gold texture, celestial scholar style, 2D game asset, isolated on dark navy background.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

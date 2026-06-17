@@ -1,0 +1,12 @@
+{
+    "asset": "2085ac50471f53446bd6016d8529425e",
+    "fileName": "019ea7e8-61ed-7e65-92fa-53259489d15c_Preview.jpg",
+    "prompt": "A seamless, dark celestial background texture. Deep space theme with subtle nebula clouds and tiny distant stars. Dark purple and black color palette. Organic and atmospheric, no obvious grid patterns. Match the velvet-like fabric texture of the reference image. Seamlessly tileable.",
+    "negativePrompt": "",
+    "model": "realistic-textures-3-0",
+    "modelName": "Realistic Textures 3.0",
+    "customSeed": 1807379509,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

@@ -1,0 +1,15 @@
+{
+    "asset": "ed32d74ae6a91524bb212764a19fd994",
+    "fileName": "019e93ab-479a-7ec9-98ed-1e21fb6b0076.wav",
+    "prompt": "short soft neutral error drum sound  ",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

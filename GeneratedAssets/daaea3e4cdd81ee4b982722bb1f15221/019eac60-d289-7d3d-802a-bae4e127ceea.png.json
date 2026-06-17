@@ -1,0 +1,38 @@
+{
+    "asset": "daaea3e4cdd81ee4b982722bb1f15221",
+    "fileName": "019eac60-d289-7d3d-802a-bae4e127ceea.png",
+    "prompt": "A card back sprite for a celestial-themed game. The design features a central dark moon silhouette surrounded by a brilliant gold solar corona with fine golden rays of varying lengths erupting towards the corners. Ornate golden filigree and sun-flares decorate the corners. The background is a deep navy blue, almost black. The style is intricate gold linework on a dark background, matching the provided reference image's ornate, high-contrast celestial aesthetic. Full rectangle card design.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "0e5a2b7c632b48c4faf2d8878e3fee86",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

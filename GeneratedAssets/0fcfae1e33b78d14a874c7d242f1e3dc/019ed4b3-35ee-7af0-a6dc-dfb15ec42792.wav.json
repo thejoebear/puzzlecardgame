@@ -1,0 +1,15 @@
+{
+    "asset": "0fcfae1e33b78d14a874c7d242f1e3dc",
+    "fileName": "019ed4b3-35ee-7af0-a6dc-dfb15ec42792.wav",
+    "prompt": "A shimmering cosmic level victory sound effect, glittering celestial chimes and a triumphant synth swell, sci-fi magic space fantasy jingle, positive win sound, clean audio",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 4.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

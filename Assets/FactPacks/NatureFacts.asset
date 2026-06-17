@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1e83780892b5c4592add1c4998da52, type: 3}
+  m_Name: NatureFacts
+  m_EditorClassIdentifier: Assembly-CSharp::FactPack
+  category: 4
+  facts:
+  - Trees can communicate through underground fungal networks.
+  - Some jellyfish are biologically immortal.
+  - Ants never sleep.
+  - A group of owls is called a parliament.
+  - Otters hold hands when they sleep.
+  - Cows have best friends.
+  - Bamboo is the fastest growing plant.
+  - Sharks have been around longer than trees.
+  - Seahorses are monogamous and mate for life.
+  - Hummingbirds are the only birds that can fly backwards.
+  - A snail can sleep for three years.
+  - Koalas have unique fingerprints like humans.
+  - Tigers have striped skin, not just striped fur.

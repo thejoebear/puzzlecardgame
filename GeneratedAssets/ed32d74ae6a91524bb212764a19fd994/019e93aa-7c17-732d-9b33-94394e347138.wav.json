@@ -1,0 +1,15 @@
+{
+  "asset": "ed32d74ae6a91524bb212764a19fd994",
+  "fileName": "019e93aa-7c17-732d-9b33-94394e347138.wav",
+  "prompt": "short soft neutral error tap sound very gentle ",
+  "negativePrompt": "",
+  "model": "elevenlabs-sound-effects-v2",
+  "modelName": "ElevenLabs Sound Effects V2",
+  "customSeed": -1,
+  "w3CTraceId": "",
+  "feedback": -1,
+  "duration": 1.0,
+  "autoTrim": false,
+  "hasReference": false,
+  "voice": ""
+}

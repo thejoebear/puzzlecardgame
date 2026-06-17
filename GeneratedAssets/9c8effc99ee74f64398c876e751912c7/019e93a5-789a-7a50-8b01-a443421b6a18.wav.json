@@ -1,0 +1,15 @@
+{
+    "asset": "9c8effc99ee74f64398c876e751912c7",
+    "fileName": "019e93a5-789a-7a50-8b01-a443421b6a18.wav",
+    "prompt": "single solid wooden clack snap, short, sharp, satisfying",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

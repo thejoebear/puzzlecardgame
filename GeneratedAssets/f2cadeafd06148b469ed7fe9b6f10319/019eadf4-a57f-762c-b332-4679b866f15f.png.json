@@ -1,0 +1,38 @@
+{
+    "asset": "f2cadeafd06148b469ed7fe9b6f10319",
+    "fileName": "019eadf4-a57f-762c-b332-4679b866f15f.png",
+    "prompt": "A soft, gaussian-blurred golden bloom. It is a pure, ethereal light glow with NO hard edges, NO textures, and NO rectangular lines. It should look like a soft light-leak or a dreamlike halo. The center is transparent. The glow is concentrated in a soft, fuzzy path that roughly outlines a card but is extremely feathered and amorphous. Pure light, no smoke or mist artifacts. Transparent background.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "e56b3d2c42d0e1241987a3ca45cc1b21",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

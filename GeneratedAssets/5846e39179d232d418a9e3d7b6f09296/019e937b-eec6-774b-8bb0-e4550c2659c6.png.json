@@ -1,0 +1,28 @@
+{
+    "asset": "5846e39179d232d418a9e3d7b6f09296",
+    "fileName": "019e937b-eec6-774b-8bb0-e4550c2659c6.png",
+    "prompt": "A high-quality background for a history themed card game, deep mahogany wood texture with gold inlay border patterns. Elegant and antique.",
+    "negativePrompt": "",
+    "model": "flux-2-dev",
+    "modelName": "Flux 2 (Dev)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

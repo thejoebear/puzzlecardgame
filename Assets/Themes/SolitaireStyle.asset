@@ -1,0 +1,53 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: adbe9c291c8626045827ab10d664fe7e, type: 3}
+  m_Name: SolitaireStyle
+  m_EditorClassIdentifier: Assembly-CSharp::VisualTheme
+  boardColor: {r: 1, g: 1, b: 1, a: 1}
+  boardSprite: {fileID: 21300000, guid: f38f3bf41baa56a4896a1ad82303d0c5, type: 3}
+  foundationSilhouette: {fileID: 21300000, guid: 6acb7ce3fecdb304cb2c69bc414df964, type: 3}
+  tableauSilhouette: {fileID: 21300000, guid: ffdba5271dd032f449ec1e7548df8fef, type: 3}
+  cardBackSprite: {fileID: 21300000, guid: daaea3e4cdd81ee4b982722bb1f15221, type: 3}
+  cardFrontColor: {r: 1, g: 1, b: 1, a: 1}
+  headerColor: {r: 0.85, g: 0.65, b: 0.2, a: 1}
+  categoryVisuals:
+  - category: 0
+    categoryColor: {r: 0.4, g: 1, b: 0.4, a: 1}
+    categoryIcon: {fileID: 21300000, guid: 2fbc0f5f4d9aec24f8141e7e7a0cdb14, type: 3}
+  - category: 1
+    categoryColor: {r: 1, g: 0.8, b: 0.3, a: 1}
+    categoryIcon: {fileID: 21300000, guid: 4117f7db505fbd2459c462da577cd6d4, type: 3}
+  - category: 2
+    categoryColor: {r: 0.4, g: 0.7, b: 1, a: 1}
+    categoryIcon: {fileID: 21300000, guid: 9d3b16863f23b5f43996fbfe86b331df, type: 3}
+  - category: 3
+    categoryColor: {r: 1, g: 0.5, b: 0.8, a: 1}
+    categoryIcon: {fileID: 21300000, guid: e43b7a1ebcb8981408c67bb46dc9b93c, type: 3}
+  - category: 4
+    categoryColor: {r: 0.1, g: 0.8, b: 0.4, a: 1}
+    categoryIcon: {fileID: 21300000, guid: 7084668fc90a3484687de3a1dd29fc58, type: 3}
+  - category: 5
+    categoryColor: {r: 0.6, g: 0.6, b: 0.9, a: 1}
+    categoryIcon: {fileID: 21300000, guid: 53369408981332141b485a7f9a01f181, type: 3}
+  - category: 6
+    categoryColor: {r: 0.9, g: 0.4, b: 0.1, a: 1}
+    categoryIcon: {fileID: 21300000, guid: c67f5e4cf51b73b4ab324975a816fced, type: 3}
+  - category: 7
+    categoryColor: {r: 0.8, g: 0.7, b: 0.5, a: 1}
+    categoryIcon: {fileID: 21300000, guid: ec24a28e28399794a9e791a23295d526, type: 3}
+  - category: 8
+    categoryColor: {r: 0.7, g: 0.3, b: 0.9, a: 1}
+    categoryIcon: {fileID: 21300000, guid: 1a90182beae699a48bdd7c8c9f45abb2, type: 3}
+  primaryUIColor: {r: 0.05, g: 0.05, b: 0.05, a: 1}
+  textOnPrimaryColor: {r: 0.976, g: 0.784, b: 0.055, a: 1}
+  panelSprite: {fileID: 21300000, guid: 66ec66c3c653f3e4c9cc08b9da66d256, type: 3}
+  buttonSprite: {fileID: 21300000, guid: 19f2770f5546fa24fa0c05852ef6fbe8, type: 3}

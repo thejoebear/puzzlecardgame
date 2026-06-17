@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1e83780892b5c4592add1c4998da52, type: 3}
+  m_Name: ArtsFacts
+  m_EditorClassIdentifier: Assembly-CSharp::FactPack
+  category: 3
+  facts:
+  - Da Vinci painted Mona Lisa.
+  - Picasso co-founded Cubism.
+  - Beethoven was a composer.
+  - Shakespeare wrote Hamlet.
+  - The Louvre is in Paris.
+  - Michelangelo sculpted David.
+  - Van Gogh painted Starry Night.
+  - Mozart was a child prodigy.
+  - The Oscars are film awards.
+  - Jazz originated in New Orleans.
+  - Frida Kahlo was Mexican.
+  - Homer wrote the Odyssey.
+  - Opera started in Italy.

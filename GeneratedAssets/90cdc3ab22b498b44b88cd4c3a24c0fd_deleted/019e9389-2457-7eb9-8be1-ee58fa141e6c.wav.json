@@ -1,0 +1,15 @@
+{
+    "asset": "90cdc3ab22b498b44b88cd4c3a24c0fd",
+    "fileName": "019e9389-2457-7eb9-8be1-ee58fa141e6c.wav",
+    "prompt": "triumphant short musical jingle win fanfare, celebratory, orchestral",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

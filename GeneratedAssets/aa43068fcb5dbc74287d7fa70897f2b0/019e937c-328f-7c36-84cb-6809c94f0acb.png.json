@@ -1,0 +1,28 @@
+{
+    "asset": "aa43068fcb5dbc74287d7fa70897f2b0",
+    "fileName": "019e937c-328f-7c36-84cb-6809c94f0acb.png",
+    "prompt": "A high-quality background for a geography themed card game, a top-down view of a stylized antique map with subtle terrain relief and old ink stains. Adventure style.",
+    "negativePrompt": "",
+    "model": "flux-2-dev",
+    "modelName": "Flux 2 (Dev)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

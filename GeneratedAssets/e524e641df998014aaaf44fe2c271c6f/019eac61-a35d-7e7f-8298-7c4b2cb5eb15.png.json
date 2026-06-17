@@ -1,0 +1,38 @@
+{
+    "asset": "e524e641df998014aaaf44fe2c271c6f",
+    "fileName": "019eac61-a35d-7e7f-8298-7c4b2cb5eb15.png",
+    "prompt": "A card back sprite for a celestial-themed game. The design features 'The Great Orrery': a top-down simplified diagram of a planetary system with concentric golden rings representing orbits and small circular icons representing planets. The center features a radiant multi-pointed sun. Ornate golden filigree frame. Background is deep navy blue with tiny, varying-sized dots representing star clusters. High-contrast gold linework on dark background. Full rectangle card design.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "0e5a2b7c632b48c4faf2d8878e3fee86",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

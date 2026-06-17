@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2d1e83780892b5c4592add1c4998da52, type: 3}
+  m_Name: GeographyFacts
+  m_EditorClassIdentifier: Assembly-CSharp::FactPack
+  category: 2
+  facts:
+  - Mount Everest is the highest.
+  - The Nile is the longest river.
+  - Pacific is the largest ocean.
+  - Sahara is the largest hot desert.
+  - Amazon produces 20% oxygen.
+  - Australia is a continent.
+  - Greenland is the largest island.
+  - Vatican is the smallest country.
+  - Antarctica is the coldest.
+  - Tokyo is the most populous city.
+  - Russia has 11 time zones.
+  - Canada has the longest coast.
+  - The Dead Sea is the lowest point.
