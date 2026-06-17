@@ -5,10 +5,32 @@ public static class SolitaireRules
 {
     public static bool CanMoveToFoundation(CardData card, List<CardData> foundation, CardCategory? foundationCategory)
     {
-        if (foundation.Count == 0) return card.rank == 1;
-        
-        // No longer sequential: just must match the category assigned to this slot
-        return card.category == foundationCategory;
+        return CanMoveStackToFoundation(new List<CardData> { card }, foundation, foundationCategory);
+    }
+
+    public static bool CanMoveStackToFoundation(List<CardData> stack, List<CardData> foundation, CardCategory? foundationCategory)
+    {
+        if (stack == null || stack.Count == 0) return false;
+        CardData bottomCard = stack[0];
+
+        // 1. All cards in stack must match the same category
+        CardCategory stackCategory = bottomCard.category;
+        foreach (var card in stack)
+        {
+            if (card.category != stackCategory) return false;
+        }
+
+        // 2. Foundation rules
+        if (foundation.Count == 0)
+        {
+            // Only Ace can start
+            return bottomCard.rank == 1;
+        }
+        else
+        {
+            // Must match existing foundation category
+            return stackCategory == foundationCategory;
+        }
     }
 
     public static bool CanMoveToTableau(CardData card, List<CardData> targetTableau, List<CardData> deckPool, int capacity = 0)

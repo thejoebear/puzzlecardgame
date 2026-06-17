@@ -61,12 +61,12 @@ public class DailyChallengeManager : MonoBehaviour
         
         if (isTheVoid) level.levelName = "DAILY ARCHive: THE VOID";
 
-        level.threeStarMoves = (int)(totalCards * 4.5f);
-level.twoStarMoves = (int)(totalCards * 6.5f);
+        level.threeStarMoves = Mathf.RoundToInt(totalCards * 1.5f);
+        level.twoStarMoves = Mathf.RoundToInt(totalCards * 2.2f);
 
         // 4. Randomize Modifiers
-        level.useMysteryCards = (UnityEngine.Random.value > 0.3f);
-        level.mysteryChance = UnityEngine.Random.Range(0.1f, 0.4f);
+        level.useMysteryCards = false; // Mystery card feature disabled
+        level.mysteryChance = 0f;
         
         // Tableau Capacity (Master challenge)
         if (UnityEngine.Random.value > 0.5f)

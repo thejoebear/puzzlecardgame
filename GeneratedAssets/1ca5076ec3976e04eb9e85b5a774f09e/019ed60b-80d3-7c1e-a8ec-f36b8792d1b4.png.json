@@ -1,0 +1,41 @@
+{
+    "asset": "1ca5076ec3976e04eb9e85b5a774f09e",
+    "fileName": "019ed60b-80d3-7c1e-a8ec-f36b8792d1b4.png",
+    "prompt": "A highly detailed, majestic card face illustration, dark celestial theme. Center subject is a highly detailed golden orrery and astronomical model floating in a glowing, vibrant cosmic nebula. Intricate, glowing golden details, epic and unique, matching the celestial style of the reference image.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "2fbc0f5f4d9aec24f8141e7e7a0cdb14",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

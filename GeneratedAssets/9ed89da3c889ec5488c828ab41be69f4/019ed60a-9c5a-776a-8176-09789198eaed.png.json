@@ -1,0 +1,41 @@
+{
+    "asset": "9ed89da3c889ec5488c828ab41be69f4",
+    "fileName": "019ed60a-9c5a-776a-8176-09789198eaed.png",
+    "prompt": "A rectangular card face illustration, dark celestial theme. Center subject is a stylized golden hourglass and celestial astrolabe against a dark starry cosmic background with deep purple and blue nebulae. Intricate, glowing golden details matching the celestial style of the reference image.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "4117f7db505fbd2459c462da577cd6d4",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

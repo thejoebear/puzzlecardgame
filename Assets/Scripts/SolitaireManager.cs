@@ -343,9 +343,10 @@ UnityEngine.UI.Button btn = stockPile.GetComponent<UnityEngine.UI.Button>();
         }
     }
 
-    public void HighlightValidMoves(CardData cardData)
+    public void HighlightValidMoves(List<CardData> stackData)
     {
-        if (cardData == null) return;
+        if (stackData == null || stackData.Count == 0) return;
+        CardData cardData = stackData[0];
 
         Color highlightColor = Color.yellow;
         if (currentLevelTheme != null) highlightColor = currentLevelTheme.primaryUIColor;
@@ -354,7 +355,7 @@ UnityEngine.UI.Button btn = stockPile.GetComponent<UnityEngine.UI.Button>();
         // Check Foundations
         for (int i = 0; i < foundationPiles.Length; i++)
         {
-            if (foundationPiles[i].gameObject.activeSelf && CanMoveToFoundation(cardData, i))
+            if (foundationPiles[i].gameObject.activeSelf && CanMoveToFoundation(stackData, i))
             {
                 foundationPiles[i].GetComponent<Pile>()?.SetHighlight(true, highlightColor);
             }
@@ -368,6 +369,11 @@ UnityEngine.UI.Button btn = stockPile.GetComponent<UnityEngine.UI.Button>();
                 tableauPiles[i].GetComponent<Pile>()?.SetHighlight(true, highlightColor);
             }
         }
+    }
+
+    public void HighlightValidMoves(CardData singleCard)
+    {
+        HighlightValidMoves(new List<CardData> { singleCard });
     }
 
     public void ClearHighlights()
@@ -446,10 +452,15 @@ UnityEngine.UI.Button btn = stockPile.GetComponent<UnityEngine.UI.Button>();
 
     private bool CanMoveToFoundation(CardData cardData, int index)
     {
+        return CanMoveToFoundation(new List<CardData> { cardData }, index);
+    }
+
+    private bool CanMoveToFoundation(List<CardData> stackData, int index)
+    {
         Pile p = foundationPiles[index].GetComponent<Pile>();
         if (p != null && p.isLocked) return false;
         
-        return SolitaireRules.CanMoveToFoundation(cardData, foundations[index], foundationCategories[index]);
+        return SolitaireRules.CanMoveStackToFoundation(stackData, foundations[index], foundationCategories[index]);
     }
 
     CardData DrawFromStock()
@@ -524,10 +535,10 @@ isResetting = false;
         switch (targetPile.type)
         {
             case PileType.Foundation:
-                if (stackData.Count == 1) success = CanMoveToFoundation(cardData, targetPile.index);
+                success = CanMoveToFoundation(stackData, targetPile.index);
                 break;
             case PileType.Tableau:
-                success = MoveToTableauCheck(cardData, targetPile.index);
+success = MoveToTableauCheck(cardData, targetPile.index);
                 break;
         }
 
@@ -596,7 +607,6 @@ isResetting = false;
     public void CheckAllCompletions()
     {
         for (int i = 0; i < foundationPiles.Length; i++) InternalCheckCategoryCompletion(i);
-        for (int i = 0; i < tableauPiles.Length; i++) CheckTableauCompletion(i);
         
         // Always check win condition after completions to ensure any state change triggers it
         CheckWinCondition();
@@ -702,76 +712,8 @@ foundationCategories[index] = null; // Release the slot
         }
     }
 
-    private void CheckTableauCompletion(int index)
-    {
-        List<CardData> tableau = tableaus[index];
-        if (tableau.Count == 0) return;
-
-        CardCategory cat = tableau[0].category;
-        int requiredSize = 0;
-        if (!activeCategorySizes.TryGetValue(cat, out requiredSize)) return;
-
-        if (tableau.Count >= requiredSize)
-        {
-            // Verify all cards in the column are of the same category (ranks no longer need to be sequential)
-            for (int i = 0; i < requiredSize; i++)
-            {
-                if (tableau[i].category != cat) 
-                    return;
-            }
-
-            Debug.Log($"[Completion] Tableau {index} completed category {cat}!");
-
-            if (CollectionManager.Instance != null)
-            {
-                foreach (var card in tableau) CollectionManager.Instance.DiscoverFact(card.fact);
-            }
-
-            completedCardsCount += requiredSize;
-            bool isFinal = completedCardsCount >= totalCardsInCurrentGame;
-            
-            List<Transform> cardsToMove = new List<Transform>();
-            foreach (Transform child in tableauPiles[index])
-            {
-                if (child.name != "Highlight") cardsToMove.Add(child);
-            }
-
-            if (!isFinal)
-            {
-                if (AudioManager.Instance != null) AudioManager.Instance.PlayCelestialCleanup();
-
-                if (CelestialVFXManager.Instance != null)
-                {
-                    CelestialVFXManager.Instance.PlayCleanupEffect(cardsToMove, Vector3.zero);
-                }
-                else
-                {
-                    for (int i = 0; i < cardsToMove.Count; i++)
-                    {
-                        Transform card = cardsToMove[i];
-                        card.SetParent(completedPile, true);
-                        CardMotion cm = card.GetComponent<CardMotion>();
-                        if (cm == null) cm = card.gameObject.AddComponent<CardMotion>();
-                        StartCoroutine(DelayedMoveToCompleted(cm, i * 0.05f));
-                    }
-                }
-            }
-
-            tableau.Clear();
-            
-            if (categoryParticles != null)
-            {
-                categoryParticles.Stop(true, ParticleSystemStopBehavior.StopEmittingAndClear);
-                categoryParticles.transform.position = tableauPiles[index].position;
-                categoryParticles.Play();
-            }
-
-            CheckWinCondition();
-        }
-    }
-
     private IEnumerator DelayedMoveToCompleted(CardMotion cm, float delay)
-    {
+{
         yield return new WaitForSeconds(delay);
         if (cm != null && cm.gameObject.activeInHierarchy)
         {

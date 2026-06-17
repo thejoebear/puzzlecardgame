@@ -15,4 +15,5 @@ MonoBehaviour:
   category: 3
   rank: 1
   fact: This is a Arts fact of rank 1.
-  icon: {fileID: 21300000, guid: cbb6393db4c07804fb1aacb037abaca9, type: 3}
+  icon: {fileID: 21300000, guid: 0b0c6760da0a2004e897106194784dab, type: 3}
+  anomaly: 0

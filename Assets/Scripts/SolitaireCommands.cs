@@ -219,7 +219,7 @@ public class DrawStockCommand : ISolitaireCommand
         cardObj.transform.SetParent(manager.wastePile, true);
         CardDisplay display = cardObj.GetComponent<CardDisplay>();
         display.Flip(true);
-        display.ApplyTheme(manager.levelManager.levels[manager.levelManager.currentLevelIndex].theme);
+        display.ApplyTheme(manager.currentLevelTheme);
         
         // Refresh all waste visuals to ensure correct fanning for older cards
         manager.RefreshPileVisuals(PileType.Waste, 0);
@@ -306,6 +306,7 @@ public class ResetStockCommand : ISolitaireCommand
             CardDisplay display = cardObj.GetComponent<CardDisplay>();
             display.SetCard(card);
             display.Flip(true);
+            display.ApplyTheme(manager.currentLevelTheme);
             cardObj.AddComponent<CardDraggable>();
         }
         

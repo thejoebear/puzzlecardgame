@@ -2282,6 +2282,28 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 775679430}
   m_CullTransparentMesh: 1
+--- !u!114 &807337770 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 8326979854804054331, guid: ee168f2b7819d7e4499db564cd4225c5, type: 3}
+  m_PrefabInstance: {fileID: 4303004951437808415}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
+--- !u!114 &820046326 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 4920050123403165541, guid: ee168f2b7819d7e4499db564cd4225c5, type: 3}
+  m_PrefabInstance: {fileID: 4303004951437808415}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9085046f02f69544eb97fd06b6048fe2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Toggle
 --- !u!224 &839872763 stripped
 RectTransform:
   m_CorrespondingSourceObject: {fileID: 8447561534205219822, guid: 128eedbe698a74f439230f1943a42e78, type: 3}
@@ -3748,6 +3770,23 @@ RectTransform:
   m_CorrespondingSourceObject: {fileID: 912287717221124153, guid: ee168f2b7819d7e4499db564cd4225c5, type: 3}
   m_PrefabInstance: {fileID: 4303004951437808415}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1197690360
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1197690356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 430c2623bf7e2ad4389c9f23f1ddfcf6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: Assembly-CSharp::SettingsPanelController
+  musicSlider: {fileID: 1796203292}
+  sfxSlider: {fileID: 807337770}
+  batterySaverToggle: {fileID: 820046326}
+  backButton: {fileID: 1460324943}
+  mainMenuManager: {fileID: 1454773011}
 --- !u!1 &1211055097
 GameObject:
   m_ObjectHideFlags: 0
@@ -4296,6 +4335,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f4688fdb7df04437aeb418b961361dc5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Unity.TextMeshPro::TMPro.TextMeshProUGUI
+--- !u!114 &1460324943 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3389917560408716950, guid: ee168f2b7819d7e4499db564cd4225c5, type: 3}
+  m_PrefabInstance: {fileID: 4303004951437808415}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4e29b1a8efbd4b44bb3f3716e73f07ff, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Button
 --- !u!1 &1468868593
 GameObject:
   m_ObjectHideFlags: 0
@@ -4602,7 +4652,12 @@ MonoBehaviour:
   - {fileID: 11400000, guid: 3de2aaf8df85d2140addd560c6abdfd8, type: 2}
   - {fileID: 11400000, guid: e5afeaa1cc1bf654485e8a9334bc852b, type: 2}
   - {fileID: 11400000, guid: 31845b6031652874ca4223df59cdfe88, type: 2}
-  currentLevelIndex: 0
+  - {fileID: 11400000, guid: 6a733ffd473b616419ddd0a521029435, type: 2}
+  - {fileID: 11400000, guid: 705e9956b54f2a043bf7c6c84cb15e1f, type: 2}
+  - {fileID: 11400000, guid: f9deeec6211d14640a13ca2785d0496d, type: 2}
+  - {fileID: 11400000, guid: e18567540cdce5b4383c9ad644c0a8c3, type: 2}
+  - {fileID: 11400000, guid: aadcb23e0a07d7741a42f6c3cbe0fd01, type: 2}
+  currentLevelIndex: 19
   levelNameText: {fileID: 171484595}
   victoryPanel: {fileID: 1482571945}
 --- !u!114 &1511289994
@@ -5663,6 +5718,17 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1785849567}
   m_CullTransparentMesh: 1
+--- !u!114 &1796203292 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 166690360683397914, guid: ee168f2b7819d7e4499db564cd4225c5, type: 3}
+  m_PrefabInstance: {fileID: 4303004951437808415}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 67db9e8f0e2ae9c40bc1e2b64352a6b4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: UnityEngine.UI::UnityEngine.UI.Slider
 --- !u!1 &1812265745 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 4109377710657592114, guid: df9638371bfa6fd4e9e9ff8f6ca338d3, type: 3}
@@ -11800,6 +11866,30 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7077841841745460570, guid: ff907b38d7d72494c89811dc1c34caa7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077841841745460570, guid: ff907b38d7d72494c89811dc1c34caa7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077841841745460570, guid: ff907b38d7d72494c89811dc1c34caa7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1454773011}
+    - target: {fileID: 7077841841745460570, guid: ff907b38d7d72494c89811dc1c34caa7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_CallState
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077841841745460570, guid: ff907b38d7d72494c89811dc1c34caa7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: OpenSettings
+      objectReference: {fileID: 0}
+    - target: {fileID: 7077841841745460570, guid: ff907b38d7d72494c89811dc1c34caa7, type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: MainMenuManager, Assembly-CSharp
+      objectReference: {fileID: 0}
     - target: {fileID: 7114510278400474085, guid: ff907b38d7d72494c89811dc1c34caa7, type: 3}
       propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
       value: 
@@ -12588,7 +12678,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 7654221074969561007, guid: ee168f2b7819d7e4499db564cd4225c5, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1197690360}
   m_SourcePrefab: {fileID: 100100000, guid: ee168f2b7819d7e4499db564cd4225c5, type: 3}
 --- !u!1001 &5201551386361159047
 PrefabInstance:
@@ -13498,6 +13591,14 @@ PrefabInstance:
     - target: {fileID: 7248678374391278662, guid: 128eedbe698a74f439230f1943a42e78, type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712978211100857492, guid: 128eedbe698a74f439230f1943a42e78, type: 3}
+      propertyPath: m_text
+      value: Final Star of Constellation 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7712978211100857492, guid: 128eedbe698a74f439230f1943a42e78, type: 3}
+      propertyPath: m_fontSize
+      value: 24.55
       objectReference: {fileID: 0}
     - target: {fileID: 8083643227284641785, guid: 128eedbe698a74f439230f1943a42e78, type: 3}
       propertyPath: m_AnchorMax.y

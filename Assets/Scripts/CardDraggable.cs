@@ -122,9 +122,9 @@ public class CardDraggable : MonoBehaviour, IBeginDragHandler, IDragHandler, IEn
         SolitaireManager manager = Object.FindAnyObjectByType<SolitaireManager>();
         if (manager != null)
         {
-            manager.HighlightValidMoves(myDisplay.cardData);
+            manager.HighlightValidMoves(sequenceData);
         }
-    }
+}
 
     public void OnDrag(PointerEventData eventData)
     {

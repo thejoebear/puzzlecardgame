@@ -92,6 +92,16 @@ public class SolitaireLevelManager : MonoBehaviour
                     card.category = cat;
                     card.rank = r;
                     
+                    SolitaireManager managerComp = GetComponent<SolitaireManager>();
+                    if (managerComp != null && managerComp.deck != null)
+                    {
+                        CardData preAuthored = managerComp.deck.cards.Find(c => c != null && c.category == cat && c.rank == r);
+                        if (preAuthored != null)
+                        {
+                            card.icon = preAuthored.icon;
+                        }
+                    }
+                    
                     if (level != null && level.useAnomalies && Random.value < level.anomalyChance)
                     {
                         card.anomaly = (AnomalyType)Random.Range(1, 4); // Supernova, Binary, or Nebula
@@ -164,6 +174,17 @@ Debug.Log($"[PrepareCardPool] Total cards successfully created: {currentDeckPool
                 card.category = cat; 
                 card.rank = r; 
                 card.fact = $"Random {cat} Fact #{r}";
+                
+                SolitaireManager managerComp = GetComponent<SolitaireManager>();
+                if (managerComp != null && managerComp.deck != null)
+                {
+                    CardData preAuthored = managerComp.deck.cards.Find(c => c != null && c.category == cat && c.rank == r);
+                    if (preAuthored != null)
+                    {
+                        card.icon = preAuthored.icon;
+                    }
+                }
+                
                 currentDeckPool.Add(card);
             }
         }

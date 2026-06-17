@@ -20,8 +20,8 @@ public int foundationSlots = 2;
     public VisualTheme theme;
     
     [Header("Mastery Thresholds (Moves)")]
-    public int threeStarMoves = 80;
-    public int twoStarMoves = 120;
+    public int threeStarMoves = 15;
+    public int twoStarMoves = 25;
 
     [Header("Puzzle Modifiers")]
     public bool useMysteryCards = false;

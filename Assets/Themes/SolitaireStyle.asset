@@ -23,30 +23,39 @@ MonoBehaviour:
   - category: 0
     categoryColor: {r: 0.4, g: 1, b: 0.4, a: 1}
     categoryIcon: {fileID: 21300000, guid: 2fbc0f5f4d9aec24f8141e7e7a0cdb14, type: 3}
+    standardCardArt: {fileID: 21300000, guid: ec89689c671d3bf4480529ce4276f6e9, type: 3}
   - category: 1
     categoryColor: {r: 1, g: 0.8, b: 0.3, a: 1}
     categoryIcon: {fileID: 21300000, guid: 4117f7db505fbd2459c462da577cd6d4, type: 3}
+    standardCardArt: {fileID: 21300000, guid: 9ed89da3c889ec5488c828ab41be69f4, type: 3}
   - category: 2
     categoryColor: {r: 0.4, g: 0.7, b: 1, a: 1}
     categoryIcon: {fileID: 21300000, guid: 9d3b16863f23b5f43996fbfe86b331df, type: 3}
+    standardCardArt: {fileID: 21300000, guid: 0672301ac3981d140a958734f1702cce, type: 3}
   - category: 3
     categoryColor: {r: 1, g: 0.5, b: 0.8, a: 1}
     categoryIcon: {fileID: 21300000, guid: e43b7a1ebcb8981408c67bb46dc9b93c, type: 3}
+    standardCardArt: {fileID: 21300000, guid: 40220a5cc6723184292111fe5920a21a, type: 3}
   - category: 4
     categoryColor: {r: 0.1, g: 0.8, b: 0.4, a: 1}
     categoryIcon: {fileID: 21300000, guid: 7084668fc90a3484687de3a1dd29fc58, type: 3}
+    standardCardArt: {fileID: 21300000, guid: 0672301ac3981d140a958734f1702cce, type: 3}
   - category: 5
     categoryColor: {r: 0.6, g: 0.6, b: 0.9, a: 1}
     categoryIcon: {fileID: 21300000, guid: 53369408981332141b485a7f9a01f181, type: 3}
+    standardCardArt: {fileID: 21300000, guid: ec89689c671d3bf4480529ce4276f6e9, type: 3}
   - category: 6
     categoryColor: {r: 0.9, g: 0.4, b: 0.1, a: 1}
     categoryIcon: {fileID: 21300000, guid: c67f5e4cf51b73b4ab324975a816fced, type: 3}
+    standardCardArt: {fileID: 21300000, guid: 9ed89da3c889ec5488c828ab41be69f4, type: 3}
   - category: 7
     categoryColor: {r: 0.8, g: 0.7, b: 0.5, a: 1}
     categoryIcon: {fileID: 21300000, guid: ec24a28e28399794a9e791a23295d526, type: 3}
+    standardCardArt: {fileID: 21300000, guid: 40220a5cc6723184292111fe5920a21a, type: 3}
   - category: 8
     categoryColor: {r: 0.7, g: 0.3, b: 0.9, a: 1}
     categoryIcon: {fileID: 21300000, guid: 1a90182beae699a48bdd7c8c9f45abb2, type: 3}
+    standardCardArt: {fileID: 21300000, guid: 40220a5cc6723184292111fe5920a21a, type: 3}
   primaryUIColor: {r: 0.05, g: 0.05, b: 0.05, a: 1}
   textOnPrimaryColor: {r: 0.976, g: 0.784, b: 0.055, a: 1}
   panelSprite: {fileID: 21300000, guid: 66ec66c3c653f3e4c9cc08b9da66d256, type: 3}

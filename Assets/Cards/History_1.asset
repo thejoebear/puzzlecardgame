@@ -15,4 +15,5 @@ MonoBehaviour:
   category: 1
   rank: 1
   fact: This is a History fact of rank 1.
-  icon: {fileID: 21300000, guid: 192c9df2944d1a944a681ddd30c5a944, type: 3}
+  icon: {fileID: 21300000, guid: af9789cc0e561b14d9266c5c21ad32a6, type: 3}
+  anomaly: 0

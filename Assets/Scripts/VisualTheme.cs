@@ -7,6 +7,7 @@ public class CategoryVisuals
     public CardCategory category;
     public Color categoryColor = Color.white;
     public Sprite categoryIcon;
+    public Sprite standardCardArt;
 }
 
 [CreateAssetMenu(fileName = "NewTheme", menuName = "Solitaire/VisualTheme")]

@@ -1,0 +1,41 @@
+{
+    "asset": "f25f79c75f3a2db4ab8fb7bbf7ea98a1",
+    "fileName": "019ed60b-8ab9-7628-b944-c9da4ea25b16.png",
+    "prompt": "A highly detailed, majestic card face illustration, dark celestial theme. Center subject is a glowing golden celestial globe displaying intricate golden constellations and orbital rings on a deep space background. Intricate, glowing golden details, epic and unique, matching the celestial style of the reference image.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "9d3b16863f23b5f43996fbfe86b331df",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

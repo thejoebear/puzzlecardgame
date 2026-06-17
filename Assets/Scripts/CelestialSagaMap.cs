@@ -150,6 +150,10 @@ public float nodeSpacing = 150f;
         LevelNodeView view = go.GetComponent<LevelNodeView>();
         if (view == null) view = go.AddComponent<LevelNodeView>();
 
+        if (view.rectTransform == null) view.rectTransform = go.GetComponent<RectTransform>();
+        if (view.button == null) view.button = go.GetComponent<Button>();
+        if (view.image == null) view.image = go.GetComponent<Image>();
+
         view.rectTransform.anchoredPosition = anchoredPos + centerOffset;
 
         bool isUnlocked = cachedProg != null && cachedProg.IsLevelUnlocked(index);
@@ -174,6 +178,9 @@ public float nodeSpacing = 150f;
         GameObject lineGo = Instantiate(linePrefab, content);
         LineView lineView = lineGo.GetComponent<LineView>();
         if (lineView == null) lineView = lineGo.AddComponent<LineView>();
+
+        if (lineView.rectTransform == null) lineView.rectTransform = lineGo.GetComponent<RectTransform>();
+        if (lineView.image == null) lineView.image = lineGo.GetComponent<Image>();
 
         lineView.transform.SetAsFirstSibling();
 

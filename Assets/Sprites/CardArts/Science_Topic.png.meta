@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: cf7b0c38ff9339b459b2e2b7f3886871
+guid: 1ca5076ec3976e04eb9e85b5a774f09e
 labels:
 - UnityAI
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -8622259438476403829
-    second: CardBack_0
+      213: 5457187074953617769
+    second: Science_Topic_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CardBack_0
+      name: Science_Topic_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: b8bda5039b4975880800000000000000
-      internalID: -8622259438476403829
+      spriteID: 961a6733bb2dbbb40800000000000000
+      internalID: 5457187074953617769
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CardBack_0: -8622259438476403829
+      Science_Topic_0: 5457187074953617769
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

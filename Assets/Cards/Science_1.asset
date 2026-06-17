@@ -15,4 +15,5 @@ MonoBehaviour:
   category: 0
   rank: 1
   fact: This is a Science fact of rank 1.
-  icon: {fileID: 21300000, guid: b4ff109f51f335f41aa1f522c5cfd412, type: 3}
+  icon: {fileID: 21300000, guid: 1ca5076ec3976e04eb9e85b5a774f09e, type: 3}
+  anomaly: 0

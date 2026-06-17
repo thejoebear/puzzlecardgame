@@ -1,0 +1,41 @@
+{
+    "asset": "af9789cc0e561b14d9266c5c21ad32a6",
+    "fileName": "019ed60b-a446-7990-af15-672bf1171adf.png",
+    "prompt": "A highly detailed, majestic card face illustration, dark celestial theme. Center subject is a grand golden hourglass filled with glowing cosmic stardust and light rays on a rich dark cosmic background. Intricate, glowing golden details, epic and unique, matching the celestial style of the reference image.",
+    "negativePrompt": "",
+    "model": "gpt-image-1",
+    "modelName": "GPT Image 1",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "4117f7db505fbd2459c462da577cd6d4",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0,
+    "dynamicParams": {
+        "serializedData": []
+    }
+}

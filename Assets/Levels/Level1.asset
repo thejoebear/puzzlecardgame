@@ -22,16 +22,16 @@ MonoBehaviour:
     cardCount: 5
   foundationSlots: 2
   theme: {fileID: 11400000, guid: c8530f22aa1fd25498983e811cea3237, type: 2}
-  threeStarMoves: 25
-  twoStarMoves: 40
+  threeStarMoves: 15
+  twoStarMoves: 25
   useMysteryCards: 0
   mysteryChance: 0.2
   useAnomalies: 0
   anomalyChance: 0.1
   tableauCapacity: 0
   lockedFoundationSlots: 0
-  focusCharges: 1
-  gravityCharges: 1
+  astralSightCharges: 1
+  gravitationalPullCharges: 1
   nebulaCharges: 1
   isNebulaNode: 0
   branchFromIndex: -1

@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: f4fb9ab866451fb4181a710807b72cd8
+guid: 0b0c6760da0a2004e897106194784dab
 labels:
 - UnityAI
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 6888576493121341014
-    second: CardBackground_0
+      213: 4123444795589041408
+    second: Arts_Topic_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -54,7 +54,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 1024
-  spriteBorder: {x: 32, y: 32, z: 32, w: 32}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: CardBackground_0
+      name: Arts_Topic_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 6568a90c2d3299f50800000000000000
-      internalID: 6888576493121341014
+      spriteID: 00d9404d13b693930800000000000000
+      internalID: 4123444795589041408
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      CardBackground_0: 6888576493121341014
+      Arts_Topic_0: 4123444795589041408
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

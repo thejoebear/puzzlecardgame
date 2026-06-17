@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: b4ff109f51f335f41aa1f522c5cfd412
+guid: f25f79c75f3a2db4ab8fb7bbf7ea98a1
 labels:
 - UnityAI
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 8324820778174367551
-    second: Icon_Science_0
+      213: -8371473364582890591
+    second: Geography_Topic_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icon_Science_0
+      name: Geography_Topic_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: f37cfd51464b78370800000000000000
-      internalID: 8324820778174367551
+      spriteID: 1a38461345d82db80800000000000000
+      internalID: -8371473364582890591
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Icon_Science_0: 8324820778174367551
+      Geography_Topic_0: -8371473364582890591
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

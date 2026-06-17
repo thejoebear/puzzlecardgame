@@ -14,12 +14,12 @@ public class ProgressionManager : MonoBehaviour
         if (Instance == null)
         {
             Instance = this;
-            DontDestroyOnLoad(gameObject);
+            if (Application.isPlaying) DontDestroyOnLoad(gameObject);
             LoadProgress();
         }
         else
         {
-            Destroy(gameObject);
+            if (Application.isPlaying) Destroy(gameObject); else DestroyImmediate(gameObject);
         }
     }
 

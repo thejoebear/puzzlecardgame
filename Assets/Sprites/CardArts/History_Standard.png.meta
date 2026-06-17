@@ -1,12 +1,12 @@
 fileFormatVersion: 2
-guid: 8ced56b29c10db54dabfe82aaa7b5c4a
+guid: 9ed89da3c889ec5488c828ab41be69f4
 labels:
 - UnityAI
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 5671966430448990340
-    second: Icon_Geography_0
+      213: 1509322570183285867
+    second: History_Standard_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -115,7 +115,7 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Icon_Geography_0
+      name: History_Standard_0
       rect:
         serializedVersion: 2
         x: 0
@@ -130,8 +130,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4883ad8ca6fd6be40800000000000000
-      internalID: 5671966430448990340
+      spriteID: b6c114f71e032f410800000000000000
+      internalID: 1509322570183285867
       vertices: []
       indices: 
       edges: []
@@ -150,7 +150,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Icon_Geography_0: 5671966430448990340
+      History_Standard_0: 1509322570183285867
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

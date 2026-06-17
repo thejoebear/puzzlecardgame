@@ -58,9 +58,23 @@ manager.solitaireHistory.Clear();
         }
 
         manager.currentLevelTheme = manager.activeLevel != null ? manager.activeLevel.theme : null;
+        if (manager.currentLevelTheme == null)
+        {
+            if (manager.levelManager != null && manager.levelManager.levels != null)
+            {
+                foreach (var lvl in manager.levelManager.levels)
+                {
+                    if (lvl != null && lvl.theme != null)
+                    {
+                        manager.currentLevelTheme = lvl.theme;
+                        break;
+                    }
+                }
+            }
+        }
         manager.activeTableauCapacity = manager.activeLevel != null ? manager.activeLevel.tableauCapacity : 0;
-        manager.activeUseMysteryCards = manager.activeLevel != null ? manager.activeLevel.useMysteryCards : false;
-        manager.activeMysteryChance = manager.activeLevel != null ? manager.activeLevel.mysteryChance : 0f;
+        manager.activeUseMysteryCards = false; // Mystery card feature disabled
+        manager.activeMysteryChance = 0f; // Mystery card feature disabled
         manager.activeLockedSlots = manager.activeLevel != null ? manager.activeLevel.lockedFoundationSlots : 0;
 
         manager.ApplyGlobalTheme(manager.currentLevelTheme);
