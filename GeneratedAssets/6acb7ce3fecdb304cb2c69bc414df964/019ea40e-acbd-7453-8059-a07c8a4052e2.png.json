@@ -1,0 +1,38 @@
+{
+    "asset": "6acb7ce3fecdb304cb2c69bc414df964",
+    "fileName": "019ea40e-acbd-7453-8059-a07c8a4052e2.png",
+    "prompt": "A glowing constellation silhouette of an 'Ace' playing card symbol (a large central star with smaller stars forming an 'A' and a diamond shape), celestial nebula aesthetic, semi-transparent white glowing lines on a black background, clean game UI icon, 2D vector style, matching celestial theme.",
+    "negativePrompt": "",
+    "model": "flux-2-dev",
+    "modelName": "Flux 2 (Dev)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "66ec66c3c653f3e4c9cc08b9da66d256",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

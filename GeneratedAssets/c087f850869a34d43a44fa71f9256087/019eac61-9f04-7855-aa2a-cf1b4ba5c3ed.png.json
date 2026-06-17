@@ -1,0 +1,38 @@
+{
+    "asset": "c087f850869a34d43a44fa71f9256087",
+    "fileName": "019eac61-9f04-7855-aa2a-cf1b4ba5c3ed.png",
+    "prompt": "A card back sprite for a celestial-themed game. The design features 'The Nebula Spiral': a swirling spiral galaxy composed of thousands of tiny gold specks and stippled lines converging into a bright central star. Ornate golden filigree frame. Background is deep navy blue, almost black. Intricate, fluid, and mysterious gold linework on a dark background. High-contrast celestial aesthetic. Full rectangle card design.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "0e5a2b7c632b48c4faf2d8878e3fee86",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

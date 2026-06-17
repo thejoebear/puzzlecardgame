@@ -1,0 +1,28 @@
+{
+    "asset": "3dc90215cbc499246a21bbb906cad9c6",
+    "fileName": "019e9820-d612-7e7e-bb76-dd45cf61aa6e.jpg",
+    "prompt": "A single star dust particle sprite, soft glowing golden orb with light trails, celestial magical effect, high resolution, 2D game asset, transparent background.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

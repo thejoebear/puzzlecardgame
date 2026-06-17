@@ -1,0 +1,12 @@
+{
+    "asset": "10f7d1d54e539bb46b60c9b076af82e7",
+    "fileName": "019ea7e8-6107-768b-afb7-660352904965_Preview.jpg",
+    "prompt": "A seamless, organic stardust and nebula texture. Glowing cosmic dust particles and soft ethereal clouds. Matching the colors and style of the reference image. No repeating grid artifacts. Seamlessly tileable.",
+    "negativePrompt": "",
+    "model": "hand-painted-textures-2-0",
+    "modelName": "Hand Painted Textures 2.0",
+    "customSeed": 65569080,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

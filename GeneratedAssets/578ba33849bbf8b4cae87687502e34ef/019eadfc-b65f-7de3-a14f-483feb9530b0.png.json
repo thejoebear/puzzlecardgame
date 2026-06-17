@@ -1,0 +1,38 @@
+{
+    "asset": "578ba33849bbf8b4cae87687502e34ef",
+    "fileName": "019eadfc-b65f-7de3-a14f-483feb9530b0.png",
+    "prompt": "A pure, radiant celestial glow. Ethereal golden-white light that fades perfectly to 100% transparency at the edges. NO square borders, NO visible container, NO black background. The center is a soft bloom, and the light dissolves into the void. High quality, dreamlike halo. Perfect alpha transparency at the edges.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "6acb7ce3fecdb304cb2c69bc414df964",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

@@ -1,0 +1,28 @@
+{
+    "asset": "7143dc2a6588e0142ba56a89db47fac5",
+    "fileName": "019e9817-19c3-7e50-996a-61af52e95585.jpg",
+    "prompt": "Ornate card front for a celestial-themed game. Deep navy velvet texture, intricate gold filigree border, prestigious and elegant, high resolution, 2D game asset.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

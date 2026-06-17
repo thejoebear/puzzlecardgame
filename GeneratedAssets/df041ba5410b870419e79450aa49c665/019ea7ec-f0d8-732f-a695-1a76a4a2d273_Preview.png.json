@@ -1,0 +1,12 @@
+{
+    "asset": "df041ba5410b870419e79450aa49c665",
+    "fileName": "019ea7ec-f0d8-732f-a695-1a76a4a2d273_Preview.png",
+    "prompt": "A seamless, organic cosmic stardust texture. Wispy, ethereal nebular gases and scattered glowing star clusters. Deep indigo and violet hues with bright pinprick stars. No fabric-like textures or weaves. Purely astronomical appearance. Seamlessly tileable. Natural cosmic distribution.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 1497263359,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

@@ -1,0 +1,28 @@
+{
+    "asset": "1a90182beae699a48bdd7c8c9f45abb2",
+    "fileName": "019e983c-dbc6-78d0-a610-a99907d039a4.jpg",
+    "prompt": "Golden ornate musical note with celestial flourishes icon, prestigious gold texture, celestial scholar style, 2D game asset, isolated on dark navy background.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

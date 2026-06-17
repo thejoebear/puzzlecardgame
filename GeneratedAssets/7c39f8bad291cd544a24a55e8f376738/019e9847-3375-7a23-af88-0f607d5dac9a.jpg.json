@@ -1,0 +1,28 @@
+{
+    "asset": "7c39f8bad291cd544a24a55e8f376738",
+    "fileName": "019e9847-3375-7a23-af88-0f607d5dac9a.jpg",
+    "prompt": "Celestial atlas page, weathered parchment with glowing golden star constellations in the corners, ornate filigree border, prestigious and ancient feel, deep navy and gold color palette, high resolution 2D game asset background.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

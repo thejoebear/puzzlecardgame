@@ -1,0 +1,28 @@
+{
+    "asset": "0e5a2b7c632b48c4faf2d8878e3fee86",
+    "fileName": "019e9817-153d-7cfb-96a0-12a27d07b162.jpg",
+    "prompt": "Celestial star-map pattern, gold constellations on a deep navy background, ornate and detailed, matching the celestial card style, 2D game asset.",
+    "negativePrompt": "",
+    "model": "flux-2-pro",
+    "modelName": "Flux 2 (Pro)",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

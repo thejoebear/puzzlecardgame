@@ -1,0 +1,38 @@
+{
+    "asset": "e56b3d2c42d0e1241987a3ca45cc1b21",
+    "fileName": "019eadf3-0d2b-7502-a6ae-500568222f35.png",
+    "prompt": "A soft, ethereal celestial glow for a card foundation. This should be JUST the misty aura—remove all hard lines, borders, and rounded rectangle frames. It should be a feathered, soft golden and white mist that gently outlines where a card would be, but without any solid shapes. The center should be mostly clear, with the glow concentrated around the edges in a soft, cloud-like way. Transparent background. High-contrast but very soft and mysterious.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "2736804894782f544af7d976713bf96a",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

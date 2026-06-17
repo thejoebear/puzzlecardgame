@@ -1,0 +1,38 @@
+{
+    "asset": "2736804894782f544af7d976713bf96a",
+    "fileName": "019eadeb-10d8-79a2-981d-2c788f73617d.png",
+    "prompt": "A subtle, soft celestial glow sprite for a foundation card slot. The shape is a simple rounded rectangle frame, matching the silhouette of a standard playing card. The glow is ethereal, misty, and high-contrast gold/white but very soft and feathered at the edges. No internal icons or text. The background is transparent. Match the elegant, celestial aesthetic of the provided reference image.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "6acb7ce3fecdb304cb2c69bc414df964",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

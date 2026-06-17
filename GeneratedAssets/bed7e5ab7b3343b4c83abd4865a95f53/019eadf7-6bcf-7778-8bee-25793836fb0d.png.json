@@ -1,0 +1,38 @@
+{
+    "asset": "bed7e5ab7b3343b4c83abd4865a95f53",
+    "fileName": "019eadf7-6bcf-7778-8bee-25793836fb0d.png",
+    "prompt": "Make the edges of the glow fade to absolute 100% transparency. Ensure there is no visible box or container around the light. The result must be only the ethereal light on a perfectly clear background. Remove any hints of a square or rectangular frame. The glow should be soft, misty, and high-quality.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "bed7e5ab7b3343b4c83abd4865a95f53",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

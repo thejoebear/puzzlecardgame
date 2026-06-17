@@ -1,0 +1,28 @@
+{
+    "asset": "db5b21180c21c5347b0ae39399d5247f",
+    "fileName": "019e937b-0dd6-7bde-8888-f032b1ce1bb3.png",
+    "prompt": "A highly detailed card back for a solitaire game with an ancient history theme, featuring golden filigree, a wax seal in the center, and old parchment texture. Royal and elegant style.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

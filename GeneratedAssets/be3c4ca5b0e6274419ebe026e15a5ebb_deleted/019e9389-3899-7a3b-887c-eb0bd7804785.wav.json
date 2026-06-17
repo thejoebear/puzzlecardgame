@@ -1,0 +1,15 @@
+{
+    "asset": "be3c4ca5b0e6274419ebe026e15a5ebb",
+    "fileName": "019e9389-3899-7a3b-887c-eb0bd7804785.wav",
+    "prompt": "rhythmic high quality card flicking and shuffling sound, clean, tactile",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 10.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

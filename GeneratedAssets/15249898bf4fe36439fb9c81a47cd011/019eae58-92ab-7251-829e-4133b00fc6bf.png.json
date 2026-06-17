@@ -1,0 +1,28 @@
+{
+    "asset": "15249898bf4fe36439fb9c81a47cd011",
+    "fileName": "019eae58-92ab-7251-829e-4133b00fc6bf.png",
+    "prompt": "Geometric celestial crystal UI frame, sharp faceted edges, translucent deep blue crystal material, glowing cyan light from within, minimalist silver star engravings at corners, symmetrical rectangular shape, flat design, game asset, isolated on black background.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

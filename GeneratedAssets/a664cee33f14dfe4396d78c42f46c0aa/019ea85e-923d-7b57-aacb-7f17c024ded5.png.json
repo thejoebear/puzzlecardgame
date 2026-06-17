@@ -1,0 +1,38 @@
+{
+    "asset": "a664cee33f14dfe4396d78c42f46c0aa",
+    "fileName": "019ea85e-923d-7b57-aacb-7f17c024ded5.png",
+    "prompt": "A star-shaped level selector button, celestial theme, ornate gold filigree borders, glowing center, dark navy blue and gold color palette, matching a mystical space saga style, clean game UI icon.",
+    "negativePrompt": "",
+    "model": "game-ui-essentials-2",
+    "modelName": "Game UI Essentials 2.0",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": [
+            {
+                "doodleReferenceType": 7,
+                "doodle": [],
+                "label": "Image",
+                "strength": 0.25,
+                "invertStrength": false,
+                "assetReferenceGuid": "19f2770f5546fa24fa0c05852ef6fbe8",
+                "unlabeledIndex": -1
+            }
+        ]
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}

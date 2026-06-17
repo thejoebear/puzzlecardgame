@@ -1,0 +1,15 @@
+{
+    "asset": "381cf29b5003dde4b8da2b3a78318e22",
+    "fileName": "019e93a5-8c17-7f66-b300-b81c778fb0c3.wav",
+    "prompt": "single clean paper card flick, short, sharp, tactile",
+    "negativePrompt": "",
+    "model": "elevenlabs-sound-effects-v2",
+    "modelName": "ElevenLabs Sound Effects V2",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "duration": 1.0,
+    "autoTrim": false,
+    "hasReference": false,
+    "voice": ""
+}

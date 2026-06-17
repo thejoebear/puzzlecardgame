@@ -1,0 +1,12 @@
+{
+    "asset": "20fd193ccb7c9c94cade0dca1befa8a4",
+    "fileName": "019ea7ec-49d3-7c29-8345-1008a34f777e_Preview.png",
+    "prompt": "A seamless, deep space background texture. Vast cosmic void with extremely subtle dark nebula gases and distant sharp, tiny stars. Colors: deep black and dark midnight blue. No fabric, cloth, or velvet textures. Purely atmospheric deep space. Seamlessly tileable. Organic and non-repeating appearance.",
+    "negativePrompt": "",
+    "model": "gemini-3.1-flash-texture",
+    "modelName": "Gemini 3.1 Nano Banana 2",
+    "customSeed": 732353667,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation"
+}

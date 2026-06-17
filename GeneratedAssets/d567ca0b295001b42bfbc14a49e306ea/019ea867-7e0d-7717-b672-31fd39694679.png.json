@@ -1,0 +1,28 @@
+{
+    "asset": "d567ca0b295001b42bfbc14a49e306ea",
+    "fileName": "019ea867-7e0d-7717-b672-31fd39694679.png",
+    "prompt": "A soft, blurred, glowing star-shaped silhouette, white center fading out to transparency, ethereal celestial glow, clean 2D game UI effect, isolated on black background (to be removed).",
+    "negativePrompt": "",
+    "model": "game-ui-essentials-2",
+    "modelName": "Game UI Essentials 2.0",
+    "customSeed": -1,
+    "w3CTraceId": "",
+    "feedback": 0,
+    "refinementMode": "Generation",
+    "pixelateTargetSize": 0,
+    "pixelateKeepImageSize": false,
+    "pixelatePixelBlockSize": 0,
+    "pixelatePixelGridSize": 0,
+    "pixelateMode": 0,
+    "pixelateOutlineThickness": 0,
+    "doodles": {
+        "m_Items": []
+    },
+    "upscaleFactor": 0,
+    "dimensions": {
+        "width": 1024,
+        "height": 1024
+    },
+    "spriteSheet": false,
+    "duration": 0.0
+}
