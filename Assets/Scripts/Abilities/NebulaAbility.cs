@@ -11,5 +11,6 @@ public class NebulaAbility : AbilityEffect
         system.nebulaMovesRemaining = movesCount;
         if (AudioManager.Instance != null) AudioManager.Instance.PlayCelestialCleanup();
         if (CelestialVFXManager.Instance != null) CelestialVFXManager.Instance.PlayNebulaEffect(true);
+        if (CelestialJuiceManager.Instance != null) CelestialJuiceManager.Instance.SetNebulaJuice(true, 1.0f);
     }
 }

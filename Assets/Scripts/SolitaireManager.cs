@@ -60,6 +60,7 @@ public Deck deck;
 
     public SolitaireHistory solitaireHistory = new SolitaireHistory();
     private bool isResetting = false;
+    private Coroutine resetStockCoroutine;
     private CardData lastMovedCard;
 
     private ISolitaireState currentState;
@@ -143,7 +144,8 @@ if (motion == null) motion = cardObj.AddComponent<CardMotion>();
                 motion.MoveTo(targetLocalPos, 0.35f, null, Quaternion.identity, Vector3.one);
                 if (AudioManager.Instance != null) AudioManager.Instance.PlayCardFlick();
                 
-                if (faceUp) cardObj.AddComponent<CardDraggable>();
+                if (faceUp && cardObj.GetComponent<CardDraggable>() == null)
+                    cardObj.AddComponent<CardDraggable>();
                 
                 yield return new WaitForSeconds(0.06f); // Slightly slower rhythmic deal
             }
@@ -470,8 +472,74 @@ UnityEngine.UI.Button btn = stockPile.GetComponent<UnityEngine.UI.Button>();
         else if (waste.Count > 0)
         {
             solitaireHistory.PushAndExecute(new ResetStockCommand(this));
-            StartCoroutine(ResetStockRoutine());
+            resetStockCoroutine = StartCoroutine(ResetStockRoutine());
         }
+    }
+
+    internal void CancelStockReset()
+    {
+        if (resetStockCoroutine != null)
+        {
+            StopCoroutine(resetStockCoroutine);
+            resetStockCoroutine = null;
+        }
+        isResetting = false;
+
+        // Stop recycle tweens so their completion callbacks cannot return cards after undo rebuilds
+        CancelMotionsUnder(wastePile);
+        CancelMotionsUnder(stockPile);
+    }
+
+    private void CancelMotionsUnder(Transform pile)
+    {
+        if (pile == null) return;
+        foreach (Transform child in pile)
+            child.GetComponent<CardMotion>()?.Cancel();
+    }
+
+    internal void RebuildWasteVisuals(List<CardData> wasteCards)
+    {
+        CancelMotionsUnder(wastePile);
+        CancelMotionsUnder(stockPile);
+
+        // Clear any lingering waste/stock card visuals mid-reset
+        List<CardDisplay> activeCards = new List<CardDisplay>();
+        if (CardRegistry.Instance != null)
+            activeCards.AddRange(CardRegistry.Instance.GetAllCards());
+        else
+            activeCards.AddRange(Object.FindObjectsByType<CardDisplay>(FindObjectsInactive.Include));
+
+        foreach (var display in activeCards)
+        {
+            if (display == null) continue;
+            if (display.transform.parent == wastePile || display.transform.parent == stockPile)
+            {
+                if (CardPool.Instance != null)
+                    CardPool.Instance.ReturnCard(display.gameObject);
+                else if (Application.isPlaying)
+                    Destroy(display.gameObject);
+                else
+                    DestroyImmediate(display.gameObject);
+            }
+        }
+
+        foreach (var card in wasteCards)
+        {
+            GameObject cardObj;
+            if (CardPool.Instance != null)
+                cardObj = CardPool.Instance.GetCard(wastePile);
+            else
+                cardObj = Instantiate(cardPrefab, wastePile);
+
+            CardDisplay display = cardObj.GetComponent<CardDisplay>();
+            display.SetCard(card);
+            display.Flip(true);
+            display.ApplyTheme(currentLevelTheme);
+            if (cardObj.GetComponent<CardDraggable>() == null)
+                cardObj.AddComponent<CardDraggable>();
+        }
+
+        RefreshPileVisuals(PileType.Waste, 0);
     }
 
     private IEnumerator ResetStockRoutine()
@@ -500,7 +568,8 @@ UnityEngine.UI.Button btn = stockPile.GetComponent<UnityEngine.UI.Button>();
             if (AudioManager.Instance != null) AudioManager.Instance.PlayCardFlick();
             yield return new WaitForSeconds(0.02f);
         }
-isResetting = false;
+        isResetting = false;
+        resetStockCoroutine = null;
     }
 
     public bool TryMoveCard(GameObject cardObj, GameObject target, Transform originalParent)
@@ -510,6 +579,12 @@ isResetting = false;
         Pile targetPile = target.GetComponentInParent<Pile>();
         if (targetPile == null) return false;
         Pile sourcePile = originalParent.GetComponent<Pile>();
+        if (sourcePile == null) return false;
+
+        // Dropping onto the same pile would Add+Remove and duplicate CardData refs
+        if (sourcePile == targetPile ||
+            (sourcePile.type == targetPile.type && sourcePile.index == targetPile.index))
+            return false;
 
         // Detect if we are moving a stack (children of cardObj)
         List<CardData> stackData = new List<CardData>();
@@ -801,8 +876,9 @@ foundationCategories[index] = null; // Release the slot
     }
 
     internal void CheckWinCondition()
-{
+    {
         if (totalCardsInCurrentGame <= 0) return;
+        if (currentState is SolitaireWinState || currentState is SolitaireGameOverState) return;
 
         // The win condition is that all category piles are completed (cleared from board).
         if (completedCardsCount >= totalCardsInCurrentGame)
@@ -938,7 +1014,11 @@ foundationCategories[index] = null; // Release the slot
 
     public void RestartRound()
     {
-        InitializeGame(); // Just re-initialize same level
+        // Daily/custom levels use index -1; keep the same LevelData instead of falling into Free Play
+        if (levelManager != null && levelManager.currentLevelIndex < 0 && activeLevel != null)
+            InitializeGame(activeLevel);
+        else
+            InitializeGame();
     }
 
 public void ApplyGlobalTheme(VisualTheme theme)
@@ -1080,6 +1160,8 @@ public void UpdateMoveCountText()
 
 public void CheckGameOver()
 {
+    if (currentState is SolitaireWinState || currentState is SolitaireGameOverState) return;
+
     if (completedCardsCount < totalCardsInCurrentGame && !CheckForPossibleMoves())
     {
         ChangeState(new SolitaireGameOverState(this));

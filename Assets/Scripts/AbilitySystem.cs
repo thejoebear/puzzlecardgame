@@ -118,6 +118,24 @@ public class AbilitySystem : MonoBehaviour
         }
     }
 
+    public void OnMoveUndone(bool wasNebulaActive, int nebulaMovesBeforeMove)
+    {
+        if (!wasNebulaActive) return;
+
+        bool needsReactivate = !isNebulaActive;
+        isNebulaActive = true;
+        nebulaMovesRemaining = nebulaMovesBeforeMove;
+
+        if (needsReactivate)
+        {
+            if (CelestialVFXManager.Instance != null) CelestialVFXManager.Instance.PlayNebulaEffect(true);
+            if (AudioManager.Instance != null) AudioManager.Instance.TransitionToCosmic(true, 0.5f);
+            if (CelestialJuiceManager.Instance != null) CelestialJuiceManager.Instance.SetNebulaJuice(true, 0.5f);
+        }
+
+        UpdateUI();
+    }
+
     private void UpdateUI()
     {
         foreach (var slot in abilities)
