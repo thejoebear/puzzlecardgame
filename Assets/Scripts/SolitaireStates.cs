@@ -139,6 +139,8 @@ public class SolitairePlayState : SolitaireStateBase
 
 public class SolitaireWinState : SolitaireStateBase
 {
+    private bool rewardsGranted;
+
     public SolitaireWinState(SolitaireManager manager) : base(manager) { }
 
     public override void Enter()
@@ -178,10 +180,17 @@ public class SolitaireWinState : SolitaireStateBase
 
         int coinsEarned = stars * 5;
 
-        if (ProgressionManager.Instance != null && manager.levelManager.currentLevelIndex >= 0)
+        if (!rewardsGranted && ProgressionManager.Instance != null)
         {
-            ProgressionManager.Instance.UnlockNextLevel(manager.levelManager.currentLevelIndex);
-            ProgressionManager.Instance.SaveStars(manager.levelManager.currentLevelIndex, stars);
+            rewardsGranted = true;
+
+            if (manager.levelManager.currentLevelIndex >= 0)
+            {
+                ProgressionManager.Instance.UnlockNextLevel(manager.levelManager.currentLevelIndex);
+                ProgressionManager.Instance.SaveStars(manager.levelManager.currentLevelIndex, stars);
+            }
+
+            // Grant coins for campaign and daily wins (daily previously showed coins without awarding them)
             ProgressionManager.Instance.AddCoins(coinsEarned);
         }
 

@@ -60,6 +60,30 @@ public class CardPool : MonoBehaviour
 
     public void ReturnCard(GameObject card)
     {
+        if (card == null) return;
+
+        // Strip runtime drag handlers so pooled redeals don't stack components
+        foreach (var drag in card.GetComponents<CardDraggable>())
+        {
+            if (Application.isPlaying) Object.Destroy(drag);
+            else Object.DestroyImmediate(drag);
+        }
+
+        CardDisplay display = card.GetComponent<CardDisplay>();
+        if (display != null)
+        {
+            display.SetMystery(false);
+            display.Flip(false);
+            display.SetLift(0f);
+        }
+
+        CardMotion motion = card.GetComponent<CardMotion>();
+        if (motion != null)
+            motion.Cancel();
+
+        card.transform.localScale = Vector3.one;
+        card.transform.localRotation = Quaternion.identity;
+        card.transform.localPosition = Vector3.zero;
         card.SetActive(false);
         card.transform.SetParent(transform);
         pool.Push(card);

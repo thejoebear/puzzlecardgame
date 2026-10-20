@@ -26,6 +26,12 @@ public class CardMotion : MonoBehaviour
         moveCoroutine = StartCoroutine(MoveRoutine(worldPosition, worldRotation, targetScale, duration, onComplete, true));
     }
 
+    public void Cancel()
+    {
+        StopAll();
+        cardDisplay?.SetLift(0);
+    }
+
     private void StopAll()
     {
         if (moveCoroutine != null) StopCoroutine(moveCoroutine);
